@@ -1,0 +1,6 @@
+    1  [2020-08-18 16:47:37] mkdir ~/week1
+    2  [2020-08-18 16:47:48] cd ~/week1
+    3  [2020-08-18 16:53:42] ls /usr/bin | sort -r | grep gcc > ex1.txt
+    4  [2020-08-18 16:54:38] ls /usr/bin | sort -r | grep "gcc" > ex1.txt
+    5  [2020-08-18 16:55:17] ls /usr/bin | sort -r
+    6  [2020-08-18 16:58:58] history > ex2.txt
