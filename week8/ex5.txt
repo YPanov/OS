@@ -1,0 +1,1 @@
+Physical address is existing address in memory (RAM) while virtual addresses of exact program are stored in table which is accessible from this program only and mapped to the memory address. 
