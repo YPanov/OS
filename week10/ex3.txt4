@@ -1,0 +1,9 @@
+1: touch _ex3.txt -- create file
+
+2: chmod -x _ex3.txt  -- remove permissions
+
+3: chmod u=rwx _ex3.txt -- grant permissions to owner
+
+4: chmod o=rwx _ex3.txt -- grant permissions to others
+
+5: chmod g=u=rwx _ex3.txt -- grant permissions to group (same as owner's)

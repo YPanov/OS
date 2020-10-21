@@ -1,0 +1,12 @@
+1: touch file.txt -- create file
+
+2: link ../week01/file.txt _ex2.txt  -- link it to _ex2.txt
+
+3: ls -i ../week01/file.txt    -- find i-node number
+49821070877904715 ../week01/file.txt
+
+4: find .. -inum 49821070877904715 -- tracing all links to file
+../week01/file.txt
+../week10/_ex2.txt
+
+5: find .. -inum 49821070877904715 -exec rm {} \; -- remove all links
