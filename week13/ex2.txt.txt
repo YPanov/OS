@@ -1,0 +1,8 @@
+1) Prevention:
+   This strategy can't be used in real-time systems, because it checks each request for a deadlock. It takes much time. In other systems it can be used.
+
+2) Avoidance:
+   This strategy makes deadlocks impossible, but it places extra restrictions which run in system, so this is complicated.
+
+3) Recovery:
+   This strategy deals with deadlock only when it occurs. It can kill some processes. However it requires some processes which can be restarted safely and without any ill effects.
